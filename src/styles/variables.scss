@@ -1,0 +1,15 @@
+$best_color: skyblue;
+
+@mixin square($size, $border-radius: none) {
+  width: $size;
+  height: $size;
+  @if ($border-radius != none) {
+    border-radius: $border-radius;
+  }
+}
+
+
+@mixin BoxOneProduct($width, $height) {
+  width: $width;
+  height: $height;
+}

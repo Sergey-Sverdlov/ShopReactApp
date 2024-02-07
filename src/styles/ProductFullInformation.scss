@@ -1,0 +1,39 @@
+@import "variables";
+.card {
+    @include BoxOneProduct(600px, 800px);
+    margin: auto;
+    font-family: Arial;
+    position: relative;
+}
+
+.price {
+    text-align: center;
+    color: grey;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    margin: 0px 20px;
+}
+
+.image {
+    display: block;
+    margin: 0px auto;
+    height: 500px;
+}
+.category:first-letter {
+    text-transform: uppercase;
+    color: red;
+}
+.category {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 25px;
+}
+.description {
+    text-align: center;
+
+}

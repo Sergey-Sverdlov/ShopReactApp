@@ -1,0 +1,14 @@
+* {
+    background-color: white;
+}
+.all {
+    display: block;
+    text-align: left;
+    font-size: 50px;
+    margin-left: 90px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+}
