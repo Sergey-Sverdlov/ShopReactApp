@@ -1,3 +1,6 @@
+В данном репозитории представлен интернет-магазин товаров с возможностью добавления товаров в корзину и избранное.
+Приложение реализовано с помощью React JS и TypeScript
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
