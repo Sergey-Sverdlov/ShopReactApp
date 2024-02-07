@@ -124,7 +124,6 @@ const Products: React.FC = () => {
           />
         ))}
       </div>
-        <h1> {totalPrice}</h1>
       <Pagination
         productsPerPage={productsPerPage}
         totalProducts={products.length}
